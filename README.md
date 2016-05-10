@@ -6,6 +6,11 @@ A nodejs command line tool for daily usage
   docker run --rm -it oopschen/nodejs-cli
 </code>
 
+## NPM
+<code>
+  docker run --rm -it --entrypoint=npm oopschen/nodejs-cli install
+</code>
+
 # Enviroment Variable
 <table>
   <tr>

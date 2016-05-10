@@ -13,6 +13,7 @@ ONBUILD RUN rm -rf /var/cache/apk/*
 ONBUILD RUN export PATH=$(npm bin -g):${PATH}
 
 WORKDIR ${WORKDIR}
+VOLUME  ${WORKDIR}
 
 CMD ["--help"]
 ENTRYPOINT ["node"]

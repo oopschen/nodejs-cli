@@ -13,3 +13,6 @@ A nodejs command line tool for daily usage
     <td>node version variable</td>
   </tr>
 </table>
+
+# Volume
+/mnt/nodejs
